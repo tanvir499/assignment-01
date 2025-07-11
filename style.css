@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+/* Nav section */
+header{
+    background-image: url(./images/Hero-bg.png);
+    height: 500px;
+    width: 1280px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #222;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+header nav h3{
+     font-weight: bold;
+     color: #4c4cff;
+     font-size: 30px;
+}
+.btn{
+    background: #4c4cff;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn:hover{
+    background: rgb(48, 216, 222);
+    color: black;
+    transition: background 0.3s ease;
+}
+.main {
+  text-align: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.main h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 30px;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
