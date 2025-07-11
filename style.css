@@ -88,3 +88,36 @@ main{
      width: 100%; 
     border-radius: 45px;
 }
+/* user section */
+.user-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #478dff28;
+    border-radius: 24px;
+    margin-left: 100px;
+    margin-right: 100px;   
+}
+.user-activity{
+    display: flex;
+    justify-content: space-around;
+}
+.user-section h3{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 50px;
+   padding-bottom: 40px;
+}
+.activity-title{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 1px;
+    margin-top: 0;
+}
+.activity-description{
+    margin-top: 1px;
+    color: #00000082;
+    padding-bottom: 50px;
+    margin-left: 5px;    
+}
