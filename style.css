@@ -210,3 +210,73 @@ main{
   border-radius: 24px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 } 
+/* contact section */
+.container { 
+  background-color: white;
+  border-radius: 15px;
+  padding: 70px;
+  margin: 100px 160px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
+.left h1 { 
+  font-size: 50px;
+  color: #000;
+  font-weight: bold;
+}
+.right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+}
+.right label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+.right input,
+.right textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+}
+.right textarea {
+  height: 100px;
+} 
+/* last section */
+.logo-section {
+  padding: 50px 20px; 
+  text-align: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.logo {
+  font-size: 64px;
+  color: #4c4cff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.tagline {
+  font-size: 16px;
+  color: #8888aa;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #8888aa;
+  font-size: 16px;
+}
+.nav-menu a:hover {
+  color: #4c4cff;
+} 
