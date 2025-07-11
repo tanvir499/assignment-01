@@ -17,7 +17,6 @@ header{
     background-repeat: no-repeat;
     color: #222;
 }
-
 header nav {
   display: flex;
   justify-content: space-between;
@@ -58,4 +57,34 @@ header nav h3{
 main{
     max-width: 1140px;
     margin: 0px auto;
+}
+.action-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;  
+}
+.about-action{
+    width: 50%;
+    padding: 30px;   
+}
+.about-action h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+ }
+.about-action p{
+    font-size: 20px;
+    color: #252432af;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+ }
+.action-img{
+    width: 30%;
+}
+.action-img img{
+     width: 100%; 
+    border-radius: 45px;
 }
